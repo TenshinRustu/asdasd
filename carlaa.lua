@@ -21,3 +21,10 @@ for i, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
      v:Destroy()
   end
 end
+wait(.1)
+game:GetService("Lighting").Bloom:Destroy()
+game:GetService("Lighting").ColorCorrection:Destroy()
+game:GetService("Lighting").SunRays:Destroy()
+game:GetService("Lighting").Sky:Destroy()
+game:GetService("Lighting").PepperSprayBlur:Destroy()
+game:GetService("Lighting").SnowBlur:Destroy()
